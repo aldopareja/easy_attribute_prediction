@@ -1,0 +1,2702 @@
+[
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "jQj4[4T82O0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000WjZ1"
+        },
+        "bbox": [
+            394,
+            153,
+            489,
+            293
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 1.25,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000056.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000018.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000030.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000050.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fam4"
+        },
+        "bbox": [
+            0,
+            266,
+            195,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000017.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000020.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000032.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zg]69W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            526,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000543.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000018.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "a_X21Z<:F6J5L4K5K5L4K5K5K5L4K5K5L4K5K5L4K5K5K50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dNjch3"
+        },
+        "bbox": [
+            185,
+            130,
+            290,
+            231
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 45.0000038,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000005.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "fcb3R2Z9T10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002N6J5K6J6J5K6J5K6J6J5K6J6J5K6J5K6GU__2"
+        },
+        "bbox": [
+            293,
+            130,
+            395,
+            231
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 45.0000038,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000507.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xaa5[4U81O1O1O000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hfl0"
+        },
+        "bbox": [
+            454,
+            200,
+            525,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000533.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zg]69W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            526,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000528.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Pdb3^4R800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000PQc2"
+        },
+        "bbox": [
+            293,
+            176,
+            386,
+            317
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 1.0,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000501.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "hdb3^4R800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000XPc2"
+        },
+        "bbox": [
+            293,
+            200,
+            386,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000549.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zeo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            490,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000027.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000052.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zg]69W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            526,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000513.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xaa5[4U81O1O1O000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hfl0"
+        },
+        "bbox": [
+            454,
+            200,
+            525,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000532.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zg]69W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            526,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000530.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fam4"
+        },
+        "bbox": [
+            0,
+            266,
+            195,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000013.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zeo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            490,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000029.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zeo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            490,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000026.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xaa5[4U81O1O1O000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hfl0"
+        },
+        "bbox": [
+            454,
+            200,
+            525,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000528.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000054.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fam4"
+        },
+        "bbox": [
+            0,
+            266,
+            195,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000034.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Veg3"
+        },
+        "bbox": [
+            0,
+            266,
+            292,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000551.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000052.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zeo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            490,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000028.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Ze\\2]4S80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Vch3"
+        },
+        "bbox": [
+            196,
+            106,
+            290,
+            246
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000008.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zg]69W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            526,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000549.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fam4"
+        },
+        "bbox": [
+            0,
+            266,
+            195,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000016.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "hdb3^4R800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000XPc2"
+        },
+        "bbox": [
+            293,
+            200,
+            386,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000530.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "\\59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Thg3"
+        },
+        "bbox": [
+            0,
+            172,
+            292,
+            180
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000558.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xaa5[4U81O1O1O000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hfl0"
+        },
+        "bbox": [
+            454,
+            200,
+            525,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000549.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "fem3>R<3M00000000000000000000000000000000000000000000000000000000000000000000000Zkm2"
+        },
+        "bbox": [
+            321,
+            294,
+            358,
+            310
+        ],
+        "shape": "cube",
+        "position_x": 0.5496685,
+        "position_y": 0.125000015,
+        "position_z": 2.59992456,
+        "rotation_x": -3.1337222e-06,
+        "rotation_y": 359.970154,
+        "rotation_z": 1.020243e-06,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000556.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fam4"
+        },
+        "bbox": [
+            0,
+            266,
+            195,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000023.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Veg3"
+        },
+        "bbox": [
+            0,
+            266,
+            292,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000516.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "[^a5[4U81N1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fil0"
+        },
+        "bbox": [
+            454,
+            106,
+            525,
+            246
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000508.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zg]69W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            526,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000519.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zeo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            490,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000023.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "a`a5[4U81N2O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`gl0"
+        },
+        "bbox": [
+            454,
+            176,
+            525,
+            317
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 1.0,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000501.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Ze\\2]4S80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Vch3"
+        },
+        "bbox": [
+            196,
+            106,
+            290,
+            246
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000004.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000012.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "\\59W<000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007Imgg3"
+        },
+        "bbox": [
+            0,
+            172,
+            292,
+            180
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000560.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000017.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zg]69W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            526,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000545.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000000.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "T68X<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000lcm4"
+        },
+        "bbox": [
+            0,
+            196,
+            195,
+            203
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 1.5,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000009.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Veg3"
+        },
+        "bbox": [
+            0,
+            266,
+            292,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000537.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Veg3"
+        },
+        "bbox": [
+            0,
+            266,
+            292,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000546.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zeo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            490,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000040.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fam4"
+        },
+        "bbox": [
+            0,
+            266,
+            195,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000032.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xaa5[4U81O1O1O000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hfl0"
+        },
+        "bbox": [
+            454,
+            200,
+            525,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000537.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "hdb3^4R800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000XPc2"
+        },
+        "bbox": [
+            293,
+            200,
+            386,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000532.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000036.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "T68X<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\\gg3"
+        },
+        "bbox": [
+            0,
+            196,
+            292,
+            203
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 1.5,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000509.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000029.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xaa5[4U81O1O1O000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hfl0"
+        },
+        "bbox": [
+            454,
+            200,
+            525,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000542.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "iZg5o0`;10000O100O10000O10000000000000000000000000000000000000000000O1000000000000O10000000kWR1"
+        },
+        "bbox": [
+            469,
+            133,
+            511,
+            167
+        ],
+        "shape": "cube",
+        "position_x": 2.4,
+        "position_y": 2.12155962,
+        "position_z": 2.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000529.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "b79W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000neg3"
+        },
+        "bbox": [
+            0,
+            242,
+            292,
+            250
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 1.0,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000501.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "bdo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000^H"
+        },
+        "bbox": [
+            490,
+            242,
+            599,
+            250
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 1.0,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000001.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zeo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            490,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000054.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "j_a5[4T8101O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Whl0"
+        },
+        "bbox": [
+            454,
+            153,
+            525,
+            293
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 1.25,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000556.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fam4"
+        },
+        "bbox": [
+            0,
+            266,
+            195,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000012.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000049.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "hdb3^4R800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000XPc2"
+        },
+        "bbox": [
+            293,
+            200,
+            386,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000548.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "\\bo53]<2N3M1O0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dJ"
+        },
+        "bbox": [
+            490,
+            172,
+            599,
+            180
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000005.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Veg3"
+        },
+        "bbox": [
+            0,
+            266,
+            292,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000512.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "ZkW54\\<1N2O1O001O02M1OO1011O000000000001O010O0010N100NWhh1"
+        },
+        "bbox": [
+            429,
+            280,
+            453,
+            289
+        ],
+        "shape": "car",
+        "position_x": 2.4,
+        "position_y": 0.07580002,
+        "position_z": 4.2,
+        "rotation_x": -1.74082274e-07,
+        "rotation_y": 90.0,
+        "rotation_z": -6.84717e-08,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000060.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Veg3"
+        },
+        "bbox": [
+            0,
+            266,
+            292,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000544.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000034.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "\\59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Thg3"
+        },
+        "bbox": [
+            0,
+            172,
+            292,
+            180
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000559.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "hdb3^4R800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000XPc2"
+        },
+        "bbox": [
+            293,
+            200,
+            386,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000521.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zg]69W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            526,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000554.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "fcb3R2Z9T10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002N6J5K6J6J5K6J5K6J6J5K6J6J5K6J5K6GU__2"
+        },
+        "bbox": [
+            293,
+            130,
+            395,
+            231
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 45.0000038,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000505.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Veg3"
+        },
+        "bbox": [
+            0,
+            266,
+            292,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000531.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000037.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Zeo59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fG"
+        },
+        "bbox": [
+            490,
+            266,
+            599,
+            274
+        ],
+        "shape": "structural",
+        "position_x": 5.01724148,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000014.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000016.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "lfW55Z<2O1O0000O101N10OLgC2X<41O00001O01O1O1O0000O101O0O2Ndlh1"
+        },
+        "bbox": [
+            429,
+            137,
+            453,
+            146
+        ],
+        "shape": "car",
+        "position_x": 2.4,
+        "position_y": 2.48430157,
+        "position_z": 4.2,
+        "rotation_x": 0.0,
+        "rotation_y": 90.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000035.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Ycb3]4S800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000gQc2"
+        },
+        "bbox": [
+            293,
+            153,
+            386,
+            293
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 1.25,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000556.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000034.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "hdb3^4R800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000XPc2"
+        },
+        "bbox": [
+            293,
+            200,
+            386,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000517.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "hdb3^4R800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000XPc2"
+        },
+        "bbox": [
+            293,
+            200,
+            386,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 0.426056325,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000542.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xaa5[4U81O1O1O000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hfl0"
+        },
+        "bbox": [
+            454,
+            200,
+            525,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000517.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "dam3b0m;100000000000000000000000000000000000000000000000000000000000000000000000O^om2"
+        },
+        "bbox": [
+            321,
+            163,
+            358,
+            181
+        ],
+        "shape": "cube",
+        "position_x": 0.55,
+        "position_y": 1.879444,
+        "position_z": 2.6,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000530.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "lW]61_<2N2N2N2N0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dJ"
+        },
+        "bbox": [
+            525,
+            172,
+            599,
+            180
+        ],
+        "shape": "structural",
+        "position_x": 5.397451,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000507.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Qf\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000_bh3"
+        },
+        "bbox": [
+            196,
+            129,
+            290,
+            270
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 1.5,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000057.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "XSj4[4U82N1O00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hhZ1"
+        },
+        "bbox": [
+            394,
+            200,
+            489,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000051.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "\\59W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Thg3"
+        },
+        "bbox": [
+            0,
+            172,
+            292,
+            180
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000508.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "f_g5f0j;001O1O001O1O001O1O00000000000000000000000000000000000000000000000000000000000000000jRR1"
+        },
+        "bbox": [
+            469,
+            294,
+            511,
+            321
+        ],
+        "shape": "cube",
+        "position_x": 2.40006781,
+        "position_y": 0.2,
+        "position_z": 1.99992824,
+        "rotation_x": 1.92890667e-07,
+        "rotation_y": -0.00572121236,
+        "rotation_z": 5.68844825e-06,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000556.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000029.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "_Uf49W<0O1000000O10000O1000000O10000O10000O1000000O1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000O100000000000000000000O1000000000000000000O1000000000000000000O1000000000000000000O1000000000000000000Oiko0"
+        },
+        "bbox": [
+            384,
+            168,
+            517,
+            183
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 89.98022,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000060.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "idW55Y<3O001OO10OO3O1OO1N21O00000010O1O1O00O100O1O2O1Nhnh1"
+        },
+        "bbox": [
+            429,
+            69,
+            453,
+            79
+        ],
+        "shape": "car",
+        "position_x": 2.4,
+        "position_y": 3.63207221,
+        "position_z": 4.2,
+        "rotation_x": 0.0,
+        "rotation_y": 90.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000032.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xaa5[4U81O1O1O000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000hfl0"
+        },
+        "bbox": [
+            454,
+            200,
+            525,
+            341
+        ],
+        "shape": "structural",
+        "position_x": 2.03076935,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000525.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fam4"
+        },
+        "bbox": [
+            0,
+            266,
+            195,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -4.10057449,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000050.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Xh\\2^4R80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000X`h3"
+        },
+        "bbox": [
+            196,
+            200,
+            290,
+            341
+        ],
+        "shape": "structural",
+        "position_x": -0.600574732,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000032.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Wmf43X<:K6J5K5K5K6J5K5K5K5K6J5K5K5K6J5K5K5K0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001O3M2N3M2N3M3M2N3M2N3M2N3M3M2N3M2N3M2N3M3M2N3M2N3M2N3M2N3M3M2N3M2N3M2N3K5JSnR1"
+        },
+        "bbox": [
+            386,
+            130,
+            509,
+            231
+        ],
+        "shape": "structural",
+        "position_x": 1.51724136,
+        "position_y": 1.75,
+        "position_z": 1.0,
+        "rotation_x": 45.0000038,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000059.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    },
+    {
+        "mask": {
+            "size": [
+                400,
+                600
+            ],
+            "counts": "Z89W<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Veg3"
+        },
+        "bbox": [
+            0,
+            266,
+            292,
+            274
+        ],
+        "shape": "structural",
+        "position_x": -3.07017469,
+        "position_y": 0.75,
+        "position_z": 1.0,
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 90.0,
+        "filename": "/home/aldo/disk1/mcs_physics_data/inputs/000000527.hkl",
+        "agent_position_x": 0.0,
+        "agent_position_y": 1.5,
+        "agent_position_z": -4.5,
+        "agent_rotation": 0.0
+    }
+]

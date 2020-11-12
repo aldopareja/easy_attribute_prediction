@@ -1,0 +1,55 @@
+inputs:
+    bbox:
+        type: bounding_box
+    file_name:
+        num_channels: 4
+        type: input_tensor
+    mask:
+        type: bitmask
+outputs:
+    agent_position_x:
+        average: 0.0
+        std: 1.0
+        type: continuous
+    agent_position_y:
+        average: 1.5
+        std: 1.0
+        type: continuous
+    agent_position_z:
+        average: -4.5
+        std: 1.0
+        type: continuous
+    agent_rotation:
+        average: 0.0
+        std: 1.0
+        type: continuous
+    position_x:
+        average: 0.73337250617
+        std: 2.9321969255678364
+        type: continuous
+    position_y:
+        average: 0.99018177435
+        std: 0.5151446769694885
+        type: continuous
+    position_z:
+        average: 1.147998528
+        std: 0.5970700013718997
+        type: continuous
+    rotation_x:
+        average: 2.699802320850862
+        std: 12.436859773303427
+        type: continuous
+    rotation_y:
+        average: 6.299644327876399
+        std: 38.71820759510201
+        type: continuous
+    rotation_z:
+        average: 37.80000006640219
+        std: 44.42026558880523
+        type: continuous
+    shape:
+        class_to_index_map:
+            car: 0
+            cube: 1
+            structural: 2
+        type: discrete
