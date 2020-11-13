@@ -1,1 +1,2 @@
 from easy_attributes.utils import istarmap_tqdm_patch
+import easy_attributes.model
