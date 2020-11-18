@@ -33,7 +33,42 @@ def get_config(data_path: Path,
     cfg.DATASETS.INPUTS += ('mask',) if use_mask else ()
     cfg.DATASETS.INPUTS += ('bbox',) if use_bounding_box else ()
 
-    cfg.DATASETS.OUTPUTS = ('shape', 'position_x')
+    cfg.DATASETS.OUTPUTS = (
+                            # 'agent_position_x',
+                            # 'agent_position_y',
+                            # 'agent_position_z',
+                            # 'agent_rotation',
+                            'dimension_0_x',
+                            'dimension_0_y',
+                            'dimension_0_z',
+                            'dimension_1_x',
+                            'dimension_1_y',
+                            'dimension_1_z',
+                            'dimension_2_x',
+                            'dimension_2_y',
+                            'dimension_2_z',
+                            'dimension_3_x',
+                            'dimension_3_y',
+                            'dimension_3_z',
+                            'dimension_4_x',
+                            'dimension_4_y',
+                            'dimension_4_z',
+                            'dimension_5_x',
+                            'dimension_5_y',
+                            'dimension_5_z',
+                            'dimension_6_x',
+                            'dimension_6_y',
+                            'dimension_6_z',
+                            'dimension_7_x',
+                            'dimension_7_y',
+                            'dimension_7_z',
+                            'position_x',
+                            'position_y',
+                            'position_z',
+                            'rotation_x',
+                            'rotation_y',
+                            'rotation_z',
+                            'shape',)
 
     cfg.DEBUG = debug
 
@@ -46,15 +81,27 @@ def get_config(data_path: Path,
     cfg.MODEL.PIXEL_STD = [1.0] * num_input_channels
 
     cfg.MODEL.BACKBONE.FREEZE_AT = 0
-    cfg.MODEL.FPN_OUT_FEATS = ('p3', 'p4', 'p5')
+    cfg.MODEL.FPN_OUT_FEATS = ('p2', 'p3', 'p4', 'p5', 'p6')
     cfg.MODEL.LAST_HIDDEN_LAYER_FEATS = 512
 
     cfg.SOLVER.WARMUP_FACTOR = 1.0 / 1000
     cfg.SOLVER.WARMUP_ITERS = 1000  # a warm up is necessary to avoid diverging training while keeping the goal learning rate as high as possible
-    cfg.SOLVER.IMS_PER_BATCH = 16 if not debug else 8
+    cfg.SOLVER.IMS_PER_BATCH = 80 if not debug else 42
     # cfg.SOLVER.BASE_LR = 0.0005  # pick a good LR
     # cfg.SOLVER.MAX_ITER = 80000
     # cfg.SOLVER.STEPS = (40000, 60000, 70000)
     # cfg.SOLVER.GAMMA = 0.5  # after each milestone in SOLVER.STEPS gets reached, the learning rate gets scaled by Gamma.
+    cfg.SOLVER.BASE_LR = 6.658777172739463e-5
+
+    cfg.SOLVER.OPT_TYPE = "Adam"  # options "Adam" "SGD"
+    cfg.SOLVER.MOMENTUM = 0.9960477666835778  # found via Bayesian Optimization
+    cfg.SOLVER.ADAM_BETA = 0.9999427846237621
+
+    # cfg.SOLVER.WEIGHT_DECAY = 0.0005
+    # cfg.SOLVER.WEIGHT_DECAY_BIAS = 0
+    cfg.SOLVER.CHECKPOINT_PERIOD = 50 if debug else 2000  # 5000
+
+    cfg.TEST.EVAL_PERIOD = 30 if debug else 4000
 
     return cfg
+

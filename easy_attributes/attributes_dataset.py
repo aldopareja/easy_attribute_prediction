@@ -85,67 +85,6 @@ def build_datasets(cfg, data_path: Path):
         DatasetCatalog.register(d, lambda ad=attr_dataset: ad.get_data_dicts())
         MetadataCatalog.get(d).set(**metadata)
 
-    # def mapper(self, d):
-    #     tensor_input = []
-    #     base_input = load_input(d['filename'])
-    #     tensor_input.append(base_input)
-    #     for input in sorted(self.cfg.DATASET.INPUTS):
-    #         in_type = self.metadata['inputs'][input]['type']
-    #         if in_type == 'input_tensor':
-    #             continue
-    #         elif in_type == 'bounding_box':
-    #             box = d[input]
-    #             segmented = np.zeros_like(base_input.numpy(), dtype=np.float32)
-    #             segmented[:, box[1]:box[3] + 1, box[0]:box[2] + 1] = \
-    #                 base_input[:, box[1]:box[3] + 1, box[0]:box[2] + 1]
-    #             tensor_input.append(torch.FloatTensor(segmented))
-    #         elif in_type == 'bitmask':
-    #             mask = d[input]
-    #             mask = mask_util.decode(mask)
-    #             segmented = base_input * torch.FloatTensor(mask)
-    #             tensor_input.append(segmented)
-    #         else:
-    #             raise NotImplementedError
-    #
-    #     tensor_input = torch.cat(tensor_input, dim=0)
-    #
-    #     outputs = {k: d[k] for k in self.cfg.DATASET.OUTPUTS}
-    #
-    #     return {'inputs': {'input_tensor': tensor_input},
-    #             'outputs': outputs}
-
-    # def __getitem__(self, idx):
-    #     d = self.data[idx]
-    #     tensor_input = []
-    #     base_input = load_input(d['filename'])
-    #     tensor_input.append(base_input)
-    #     for input in sorted(self.cfg.DATASET.INPUTS):
-    #         in_type = self.metadata['inputs'][input]['type']
-    #         if in_type == 'input_tensor':
-    #             continue
-    #         elif in_type == 'bounding_box':
-    #             box = d[input]
-    #             segmented = np.zeros_like(base_input.numpy(), dtype=np.float32)
-    #             segmented[:, box[1]:box[3] + 1, box[0]:box[2] + 1] = \
-    #                 base_input[:, box[1]:box[3] + 1, box[0]:box[2] + 1]
-    #             tensor_input.append(torch.FloatTensor(segmented))
-    #         elif in_type == 'bitmask':
-    #             mask = d[input]
-    #             mask = mask_util.decode(mask)
-    #             segmented = base_input * torch.FloatTensor(mask)
-    #             tensor_input.append(segmented)
-    #         else:
-    #             raise NotImplementedError
-    #
-    #     tensor_input = torch.cat(tensor_input, dim=0)
-    #
-    #     outputs = {k: d[k] for k in self.cfg.DATASET.OUTPUTS}
-    #
-    #     return {'inputs': {'input_tensor': tensor_input},
-    #             'outputs': outputs}
-
-    # def __len__(self):
-    #     return len(self.data)
 
 if __name__ == "__main__":
     import argparse

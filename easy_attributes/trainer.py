@@ -1,12 +1,12 @@
 import torch
 import torch.utils.data
 
-from detectron2.data import DatasetCatalog, build_batch_data_loader
-from detectron2.data.build import worker_init_reset_seed, trivial_batch_collator
+from detectron2.data import DatasetCatalog
+from detectron2.data.build import worker_init_reset_seed
 from detectron2.data.samplers import TrainingSampler, InferenceSampler
 from detectron2.engine import DefaultTrainer
-from torch.distributed import get_world_size
 
+from easy_attributes.attribute_evaluator import AttributeEvaluator
 from easy_attributes.utils.trainer_utils import get_batch_size
 
 
@@ -43,3 +43,7 @@ class CustomTrainer(DefaultTrainer):
             batch_sampler=batch_sampler,
             # collate_fn=trivial_batch_collator,
         )
+
+    @classmethod
+    def build_evaluator(cls, cfg, dataset_name):
+        return AttributeEvaluator(cfg)
