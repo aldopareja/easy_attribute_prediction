@@ -1,0 +1,1 @@
+'python', '-m', 'easy_attributes.do_train', '--input_data', '/disk1/mcs_physics_data_derender/', '--output_dir', 'bayesian_opt/output', '--bo_config_file', 'bayesian_opt/output/bo_cfg.yml', '--distributed'

@@ -5,12 +5,12 @@ from pathlib import Path
 import numpy as np
 from detectron2.config import CfgNode
 from detectron2.data import DatasetFromList, MapDataset, DatasetCatalog, MetadataCatalog
-from torch.utils.data import Dataset, DataLoader
 import torch
 from pycocotools import mask as mask_util
 
 from easy_attributes.utils.io import read_serialized, load_input
 from easy_attributes.utils.istarmap_tqdm_patch import array_apply
+from easy_attributes.utils.visualize import visualize_data_dict
 
 
 def data_dict_from_serialized(d, cfg, metadata):
@@ -84,6 +84,7 @@ def build_datasets(cfg, data_path: Path):
         attr_dataset = AttributeDataset(data_path / (d + '.json'), cfg)
         DatasetCatalog.register(d, lambda ad=attr_dataset: ad.get_data_dicts())
         MetadataCatalog.get(d).set(**metadata)
+        MetadataCatalog.get(d).set(thing_classes=['object'])
 
 
 if __name__ == "__main__":

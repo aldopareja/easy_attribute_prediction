@@ -5,7 +5,7 @@ from typing import Tuple, List, Dict
 import torch
 from detectron2.config import configurable
 from detectron2.data import MetadataCatalog
-from detectron2.modeling import META_ARCH_REGISTRY, Backbone, build_backbone
+from detectron2.modeling import META_ARCH_REGISTRY, Backbone, build_backbone, build_resnet_backbone
 from detectron2.structures import ImageList
 from numpy import cumsum
 import numpy as np
@@ -77,8 +77,7 @@ class OutputHead:
         for term, loss_method in self.loss_methods.items():
             # unstandardize to keep training stable
             normalize = self.out_metadata[term]['type'] == 'continuous'
-            l_input, l_target = map(lambda z: z / self.out_metadata[term]['std'] if normalize
-            else z,
+            l_input, l_target = map(lambda z: z / self.out_metadata[term]['std'] if normalize else z,
                                     [inputs[term], targets[term]])
 
             loss = loss_method(l_input, l_target)
@@ -121,7 +120,7 @@ class OutputHead:
             out_meta = self.out_metadata[term]
             err_dict[term] = err_method(i_input, i_target,
                                         normalizing_std=out_meta['std'] if out_meta['type'] == 'continuous'
-                                                        else 1.0)
+                                        else 1.0)
 
             err_dict['overall_mean'] += err_dict[term]
         err_dict["overall_mean"] /= len(self.terms)
@@ -147,6 +146,7 @@ class CustomModel(nn.Module):
                  # batch_size: int,
                  resnet_features: List[str],
                  last_hid_num_feats: int,
+                 pooler_type: str
                  ):
         super().__init__()
         self.backbone = backbone
@@ -156,7 +156,10 @@ class CustomModel(nn.Module):
         feat_heights = {p: ceil(input_height / fs) for p, fs in feat_strides.items()}
         feat_widths = {p: ceil(input_width / fs) for p, fs in feat_strides.items()}
 
-        self.poolers = {p: nn.MaxPool2d((feat_heights[p], feat_widths[p])) for p in resnet_features}
+        p_funcs = {'average': nn.AvgPool2d,
+                   'max': nn.MaxPool2d}
+        self.poolers = {p: p_funcs[pooler_type]((feat_heights[p], feat_widths[p]))
+                        for p in resnet_features}
 
         self.sum_feat_channels = sum([backbone.output_shape()[p].channels for p in resnet_features])
 
@@ -175,6 +178,7 @@ class CustomModel(nn.Module):
     @classmethod
     def from_config(cls, cfg):
         backbone = build_backbone(cfg)
+        # backbone = build_resnet_backbone(cfg)
         return {'backbone': backbone,
                 'output_head': OutputHead(cfg),
                 "pixel_mean": cfg.MODEL.PIXEL_MEAN,
@@ -182,8 +186,9 @@ class CustomModel(nn.Module):
                 "input_height": MetadataCatalog.get(cfg.DATASETS.TEST[0]).inputs['file_name']['height'],
                 "input_width": MetadataCatalog.get(cfg.DATASETS.TEST[0]).inputs['file_name']['width'],
                 # "batch_size": get_batch_size(cfg.SOLVER.IMS_PER_BATCH),
-                "resnet_features": cfg.MODEL.FPN_OUT_FEATS,
-                "last_hid_num_feats": cfg.MODEL.LAST_HIDDEN_LAYER_FEATS
+                "resnet_features": cfg.MODEL.RESNETS.OUT_FEATURES,
+                "last_hid_num_feats": cfg.MODEL.LAST_HIDDEN_LAYER_FEATS,
+                'pooler_type': cfg.MODEL.POOLER_TYPE
                 }
 
     @property

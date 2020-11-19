@@ -23,6 +23,7 @@ def parse_args():
     parser.add_argument('--input_data', type=str)
     parser.add_argument('--use_mask_on_input', action='store_true')
     parser.add_argument('--use_bounding_box_on_input', action='store_true')
+    parser.add_argument('--bo_config_file', type=str)
     # parser.add_argument('--remove_cache', action='store_true')
     # parser.add_argument('--num_input_channels', type=int)
     return parser.parse_args()
@@ -32,15 +33,17 @@ def main(args):
     if args.debug and not args.distributed:
         import ipdb
         ipdb.set_trace()
-    if not args.resume:
-        shutil.rmtree(args.output_dir, ignore_errors=True)
 
     cfg = get_config(data_path=Path(args.input_data),
                      model_weights_path=Path(args.model_weights) if args.model_weights else None,
                      output_path=Path(args.output_dir) if args.output_dir else None,
                      debug=args.debug,
                      use_mask=args.use_mask_on_input,
-                     use_bounding_box=args.use_bounding_box_on_input)
+                     use_bounding_box=args.use_bounding_box_on_input,
+                     bo_config_file=args.bo_config_file)
+    if not args.resume:
+        shutil.rmtree(cfg.OUTPUT_DIR, ignore_errors=True)
+        Path(cfg.OUTPUT_DIR).mkdir(exist_ok=True)
 
     default_setup(cfg, args)
     build_datasets(cfg, Path(args.input_data))

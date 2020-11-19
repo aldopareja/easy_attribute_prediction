@@ -1,4 +1,5 @@
 from itertools import chain
+from pathlib import Path
 
 import numpy as np
 from detectron2.config import configurable
@@ -7,17 +8,20 @@ from detectron2.utils import comm
 from detectron2.utils.comm import get_world_size
 
 from easy_attributes.model import OutputHead
+from easy_attributes.utils.io import write_serialized
 
 
 class AttributeEvaluator(DatasetEvaluator):
 
     @configurable
-    def __init__(self, output_head: OutputHead):
+    def __init__(self, output_head: OutputHead, output_path : Path):
         self.output_head = output_head
+        self.output_path = output_path
 
     @classmethod
     def from_config(cls, cfg):
-        return {'output_head': OutputHead(cfg)}
+        return {'output_head': OutputHead(cfg),
+                'output_path': Path(cfg.OUTPUT_DIR) / 'last_results.json'}
 
     def reset(self):
         self._predictions = []
@@ -49,6 +53,8 @@ class AttributeEvaluator(DatasetEvaluator):
                                     [predictions, labels])
 
         err_dict = self.output_head.pred_error(all_preds, all_labels)
+
+        write_serialized(err_dict, self.output_path)
 
         return err_dict
 
