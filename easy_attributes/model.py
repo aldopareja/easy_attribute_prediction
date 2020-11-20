@@ -82,7 +82,7 @@ class OutputHead:
 
             loss = loss_method(l_input, l_target)
 
-            loss_dict[term] = loss
+            loss_dict[term] = loss/len(self.terms)
 
         # loss_dict["total_loss"] = sum(loss_dict.values())
         return loss_dict
@@ -144,24 +144,24 @@ class CustomModel(nn.Module):
                  input_height: int,
                  input_width: int,
                  # batch_size: int,
-                 resnet_features: List[str],
+                 # resnet_features: List[str],
                  last_hid_num_feats: int,
                  pooler_type: str
                  ):
         super().__init__()
         self.backbone = backbone
-        self.backbone_features = resnet_features
+        self.backbone_features = backbone.output_shape().keys()
 
-        feat_strides = {p: backbone.output_shape()[p].stride for p in resnet_features}
+        feat_strides = {p: v.stride for p,v in backbone.output_shape().items()}
         feat_heights = {p: ceil(input_height / fs) for p, fs in feat_strides.items()}
         feat_widths = {p: ceil(input_width / fs) for p, fs in feat_strides.items()}
 
         p_funcs = {'average': nn.AvgPool2d,
                    'max': nn.MaxPool2d}
         self.poolers = {p: p_funcs[pooler_type]((feat_heights[p], feat_widths[p]))
-                        for p in resnet_features}
+                        for p in backbone.output_shape().keys()}
 
-        self.sum_feat_channels = sum([backbone.output_shape()[p].channels for p in resnet_features])
+        self.sum_feat_channels = sum([v.channels for v in backbone.output_shape().values()])
 
         self.output_network = nn.Sequential(nn.Linear(self.sum_feat_channels, last_hid_num_feats),
                                             nn.ReLU(),
@@ -169,8 +169,8 @@ class CustomModel(nn.Module):
 
         self.output_head = output_head
 
-        self.register_buffer("pixel_mean", torch.Tensor(pixel_mean).view(-1, 1, 1))
-        self.register_buffer("pixel_std", torch.Tensor(pixel_std).view(-1, 1, 1))
+        self.register_buffer("pixel_mean", torch.Tensor(pixel_mean).view(1, -1, 1, 1))
+        self.register_buffer("pixel_std", torch.Tensor(pixel_std).view(1, -1, 1, 1))
         assert (
                 self.pixel_mean.shape == self.pixel_std.shape
         ), f"{self.pixel_mean} and {self.pixel_std} have different shapes!"
@@ -186,7 +186,7 @@ class CustomModel(nn.Module):
                 "input_height": MetadataCatalog.get(cfg.DATASETS.TEST[0]).inputs['file_name']['height'],
                 "input_width": MetadataCatalog.get(cfg.DATASETS.TEST[0]).inputs['file_name']['width'],
                 # "batch_size": get_batch_size(cfg.SOLVER.IMS_PER_BATCH),
-                "resnet_features": cfg.MODEL.RESNETS.OUT_FEATURES,
+                # "resnet_features": cfg.MODEL.RESNETS.OUT_FEATURES,
                 "last_hid_num_feats": cfg.MODEL.LAST_HIDDEN_LAYER_FEATS,
                 'pooler_type': cfg.MODEL.POOLER_TYPE
                 }
@@ -198,7 +198,7 @@ class CustomModel(nn.Module):
     def predict_only(self, batched_inputs):
         inputs = self.preprocess_input([batched_inputs['inputs']['input_tensor']])
 
-        features = self.backbone(inputs.tensor[0])
+        features = self.backbone(inputs)
 
         features = [self.poolers[p](features[p]) for p in self.backbone_features]
 
@@ -253,7 +253,8 @@ class CustomModel(nn.Module):
         """
         Normalize, pad and batch the input images.
         """
-        images = [input_tensor[0].to(self.device)]
-        images = [(x - self.pixel_mean) / self.pixel_std for x in images]
-        images = ImageList.from_tensors(images, self.backbone.size_divisibility)
-        return images
+        input_tensor = input_tensor[0].to(self.device)
+        input_tensor = (input_tensor - self.pixel_mean) / self.pixel_std
+        input_tensor = ImageList.from_tensors([input_tensor], self.backbone.size_divisibility)
+        input_tensor = input_tensor.tensor[0]
+        return input_tensor

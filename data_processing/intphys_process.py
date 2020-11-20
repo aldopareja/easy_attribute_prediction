@@ -1,5 +1,6 @@
 import argparse
 import os
+import random
 import shutil
 import sys
 from itertools import chain
@@ -11,13 +12,15 @@ import hickle as hkl
 from pycocotools import mask as mask_util
 from PIL import Image
 
+
+
 sys.path.insert(0, './')
 from easy_attributes.utils.io import read_serialized, write_serialized
 from easy_attributes.utils.istarmap_tqdm_patch import array_apply
 from easy_attributes.utils.meta_data import get_discrete_metadata, get_pixels_mean_and_std
+from easy_attributes.utils.visualize import visualize_data_dict
 
 MIN_AREA = 50
-
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -93,7 +96,6 @@ def process_frame(depth_file, mask_file, rgb_file, frame, out_dir, index):
                         **attributes,
                         'filename': str(input_file),
                         })
-
     return objects
 
 
@@ -109,7 +111,8 @@ def process_video(video_path, vid_num, out_dir):
         masks.append(video_path / 'masks' / ('masks_' + str(i).zfill(3) + '.png'))
         frames.append(status['frames'][i - 1])
 
-    objects = [process_frame(d, m, r, f, out_dir, vid_num * 1000 + f_num) for f_num, (d, m, r, f) in
+    objects = [process_frame(d, m, r, f, out_dir, vid_num * 1000 + f_num)
+               for f_num, (d, m, r, f) in
                enumerate(zip(depths, masks, rgbs, frames))]
 
     return chain.from_iterable(objects)
@@ -125,13 +128,16 @@ if __name__ == '__main__':
 
     data = {}
     for f_set, folders in {'val': video_folders_val, 'train': video_folders_train}.items():
-        worker_args = [(v, i, args.output_dir) for i, v in enumerate(folders)]
+        worker_args = [(v,
+                        i + len(video_folders_val) if f_set == 'train' else i,
+                        args.output_dir) for i, v in enumerate(folders)]
 
         objects = list(chain.from_iterable(array_apply(process_video,
+                                                       # random.sample(worker_args,10),
                                                        worker_args,
                                                        args.parallel,
                                                        # cpu_frac=2,
-                                                       chunksize=10,
+                                                       chunksize=100,
                                                        description='processing intphys scenes')))
 
         data[f_set] = objects

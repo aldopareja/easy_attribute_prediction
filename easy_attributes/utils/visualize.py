@@ -20,6 +20,7 @@ def visualize_data_dict(d, save_path: Path = None, channels=(0, 1, 2), input_ten
     assert img.shape[0] == 3
     img = img.swapaxes(0, 1).swapaxes(1, 2)
     img = img.astype(np.uint8)
+    MetadataCatalog.get('val').set(thing_classes=['object'])
     visualizer = Visualizer(img, metadata=MetadataCatalog.get('val'))
     out = visualizer.draw_dataset_dict({"annotations": [{"bbox": d['bbox'],
                                                          "bbox_mode": int(BoxMode.XYXY_ABS),

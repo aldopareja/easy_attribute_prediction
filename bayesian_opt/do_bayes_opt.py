@@ -4,6 +4,7 @@ import subprocess
 import sys
 from argparse import Namespace
 from collections import defaultdict
+from math import ceil
 from pathlib import Path
 
 from dragonfly.apis.api_utils import preprocess_multifidelity_arguments
@@ -43,7 +44,7 @@ PROC_METHODS.update({"SOLVER.BASE_LR": lambda x: float(10.0 ** x),
                      "SOLVER.MOMENTUM": lambda x: float(1 - 10.0 ** x),
                      "SOLVER.ADAM_BETA": lambda x: float(1 - 10.0 ** x),
                      # "SOLVER.OPT_TYPE": lambda x: str(x),
-                     "SOLVER.IMS_PER_BATCH": lambda x: int(2 ** x),
+                     "SOLVER.IMS_PER_BATCH": lambda x: ceil(2 ** x / 2.) * 2,
                      "SOLVER.MAX_TIME_SECS": lambda x: int(x),
                      "DATALOADER.NUM_WORKERS": lambda x: int(2 ** x)})
 
@@ -89,9 +90,9 @@ def parse_args():
     # parser.add_argument('--num_input_channels', type=int)
     return parser.parse_args()
 
-def evaluate_objective():
-    command = f'python -m easy_attributes.do_train --input_data /disk1/mcs_physics_data_derender/ --output_dir bayesian_opt/output --bo_config_file bayesian_opt/output/bo_cfg.yml --distributed'
-    return os.system(command)
+# def evaluate_objective():
+#     command = f'python -m easy_attributes.do_train --input_data /disk1/mcs_physics_data_derender/ --output_dir bayesian_opt/output --bo_config_file bayesian_opt/output/bo_cfg.yml --distributed'
+#     return os.system(command)
 
 if __name__ == "__main__":
     config = load_config_file('bayesian_opt/params_domain.json')
@@ -113,7 +114,7 @@ if __name__ == "__main__":
         # except Exception:
         #     ret_code = 1
         try:
-            subprocess.run(['python', '-m', 'easy_attributes.do_train', '--input_data', '/disk1/mcs_physics_data_derender/', '--output_dir', 'bayesian_opt/output', '--bo_config_file', 'bayesian_opt/output/bo_cfg.yml', '--distributed'])
+            subprocess.run(['python', '-m', 'easy_attributes.do_train', '--input_data', args.input_data, '--output_dir', 'bayesian_opt/output', '--bo_config_file', 'bayesian_opt/output/bo_cfg.yml', '--distributed'])
             ret_code = 0
         except:
             ret_code = 1

@@ -20,7 +20,7 @@ import machine_common_sense as mcs
 
 sys.path.insert(0, './')
 from easy_attributes.utils.io import write_serialized
-from easy_attributes.utils.meta_data import get_continuous_metadata, get_discrete_metadata
+from easy_attributes.utils.meta_data import get_continuous_metadata, get_discrete_metadata, get_pixels_mean_and_std
 
 MIN_AREA = 100
 
@@ -209,7 +209,8 @@ if __name__ == "__main__":
     meta_data = {'inputs': {'file_name': {'type': 'input_tensor',
                                           'num_channels': 4,
                                           'height': 400,
-                                          'width': 600},
+                                          'width': 600,
+                                          **get_pixels_mean_and_std(val_dicts)},
                             'mask': {'type': 'bitmask'},
                             'bbox': {'type': 'bounding_box'}},
                  'outputs': {**{e: get_continuous_metadata(val_dicts, e)

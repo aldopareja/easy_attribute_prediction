@@ -20,8 +20,8 @@ def get_config(data_path: Path,
     cfg.MODEL.META_ARCHITECTURE = 'CustomModel'
 
     if model_weights_path is None:
-        # cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x.yaml")
-        cfg.MODEL.WEIGHTS = 'https://dl.fbaipublicfiles.com/detectron2/ImageNetPretrained/MSRA/R-50.pkl'
+        cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x.yaml")
+        # cfg.MODEL.WEIGHTS = 'https://dl.fbaipublicfiles.com/detectron2/ImageNetPretrained/MSRA/R-50.pkl'
     else:
         cfg.MODEL.WEIGHTS = str(model_weights_path)
 
@@ -41,63 +41,65 @@ def get_config(data_path: Path,
                             # 'agent_position_y',
                             # 'agent_position_z',
                             # 'agent_rotation',
-                            # 'dimension_0_x',
-                            # 'dimension_0_y',
-                            # 'dimension_0_z',
-                            # 'dimension_1_x',
-                            # 'dimension_1_y',
-                            # 'dimension_1_z',
-                            # 'dimension_2_x',
-                            # 'dimension_2_y',
-                            # 'dimension_2_z',
-                            # 'dimension_3_x',
-                            # 'dimension_3_y',
-                            # 'dimension_3_z',
-                            # 'dimension_4_x',
-                            # 'dimension_4_y',
-                            # 'dimension_4_z',
-                            # 'dimension_5_x',
-                            # 'dimension_5_y',
-                            # 'dimension_5_z',
-                            # 'dimension_6_x',
-                            # 'dimension_6_y',
-                            # 'dimension_6_z',
-                            # 'dimension_7_x',
-                            # 'dimension_7_y',
-                            # 'dimension_7_z',
-                            # 'position_x',
-                            # 'position_y',
-                            # 'position_z',
-                            # 'rotation_x',
-                            # 'rotation_y',
-                            # 'rotation_z',
+                            'dimension_0_x',
+                            'dimension_0_y',
+                            'dimension_0_z',
+                            'dimension_1_x',
+                            'dimension_1_y',
+                            'dimension_1_z',
+                            'dimension_2_x',
+                            'dimension_2_y',
+                            'dimension_2_z',
+                            'dimension_3_x',
+                            'dimension_3_y',
+                            'dimension_3_z',
+                            'dimension_4_x',
+                            'dimension_4_y',
+                            'dimension_4_z',
+                            'dimension_5_x',
+                            'dimension_5_y',
+                            'dimension_5_z',
+                            'dimension_6_x',
+                            'dimension_6_y',
+                            'dimension_6_z',
+                            'dimension_7_x',
+                            'dimension_7_y',
+                            'dimension_7_z',
+                            'position_x',
+                            'position_y',
+                            'position_z',
+                            'rotation_x',
+                            'rotation_y',
+                            'rotation_z',
                             'shape',)
 
     cfg.DEBUG = debug
 
     metadata = read_serialized(data_path / 'metadata.yml')
-    num_input_channels = metadata['inputs']['file_name']['num_channels']
+    input_meta = metadata['inputs']['file_name']
+    num_input_channels = input_meta['num_channels']
     num_repeats = sum([use_mask, use_bounding_box]) + 1
     num_input_channels *= num_repeats
 
     cfg.INPUT.FORMAT = "D" * num_input_channels
-    cfg.MODEL.PIXEL_MEAN = metadata['inputs']['file_name']['pixel_mean'] * num_repeats
-    cfg.MODEL.PIXEL_STD =  metadata['inputs']['file_name']['pixel_std'] * num_repeats
+    cfg.MODEL.PIXEL_MEAN = input_meta['pixel_mean'] * num_repeats if 'pixel_mean' in input_meta else [0.5] * num_input_channels
+    cfg.MODEL.PIXEL_STD =  input_meta['pixel_std'] * num_repeats if 'pixel_std' in input_meta else [1.0] * num_input_channels
 
     cfg.MODEL.BACKBONE.FREEZE_AT = 0
-    cfg.MODEL.BACKBONE.NAME = 'build_resnet_backbone'
-    cfg.MODEL.RESNETS.OUT_FEATURES = ['res5']
+    cfg.MODEL.BACKBONE.NAME = 'build_resnet_fpn_backbone'
+    # cfg.MODEL.RESNETS.OUT_FEATURES = ['res5']
+    cfg.MODEL.RESNETS.NORM = "BN"
     # cfg.MODEL.FPN_OUT_FEATS = ('p2', 'p3', 'p4', 'p5', 'p6')
     cfg.MODEL.LAST_HIDDEN_LAYER_FEATS = 512
     cfg.MODEL.POOLER_TYPE = 'max'
 
     cfg.SOLVER.WARMUP_FACTOR = 1.0 / 100
     cfg.SOLVER.WARMUP_ITERS = 100  # a warm up is necessary to avoid diverging training while keeping the goal learning rate as high as possible
-    cfg.SOLVER.IMS_PER_BATCH = 20 if not debug else 8
+    cfg.SOLVER.IMS_PER_BATCH = 50 if not debug else 8
     # cfg.SOLVER.MAX_ITER = 80000
     cfg.SOLVER.STEPS = (30000, 45000, 60000)
     cfg.SOLVER.GAMMA = 0.5  # after each milestone in SOLVER.STEPS gets reached, the learning rate gets scaled by Gamma.
-    cfg.SOLVER.BASE_LR = 6.658777172739463e-5 / 4
+    cfg.SOLVER.BASE_LR = 6.658777172739463e-5
 
     cfg.SOLVER.OPT_TYPE = "Adam"  # options "Adam" "SGD"
     cfg.SOLVER.MOMENTUM = 0.9960477666835778  # found via Bayesian Optimization
